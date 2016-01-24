@@ -1,0 +1,43 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'run', 'server' ]
+2 info using npm@3.3.6
+3 info using node@v5.0.0
+4 verbose run-script [ 'preserver', 'server', 'postserver' ]
+5 info lifecycle slack4health@1.0.0-SNAPSHOT~preserver: slack4health@1.0.0-SNAPSHOT
+6 silly lifecycle slack4health@1.0.0-SNAPSHOT~preserver: no script for preserver, continuing
+7 info lifecycle slack4health@1.0.0-SNAPSHOT~server: slack4health@1.0.0-SNAPSHOT
+8 verbose lifecycle slack4health@1.0.0-SNAPSHOT~server: unsafe-perm in lifecycle true
+9 verbose lifecycle slack4health@1.0.0-SNAPSHOT~server: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/var/www/clients/client0/web5/web/slack4health/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+10 verbose lifecycle slack4health@1.0.0-SNAPSHOT~server: CWD: /var/www/clients/client0/web5/web/slack4health
+11 silly lifecycle slack4health@1.0.0-SNAPSHOT~server: Args: [ '-c',
+11 silly lifecycle   'webpack-dev-server --inline --colors --display-error-details --display-cached --port 8080' ]
+12 silly lifecycle slack4health@1.0.0-SNAPSHOT~server: Returned: code: 1  signal: null
+13 info lifecycle slack4health@1.0.0-SNAPSHOT~server: Failed to exec server script
+14 verbose stack Error: slack4health@1.0.0-SNAPSHOT server: `webpack-dev-server --inline --colors --display-error-details --display-cached --port 8080`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:233:16)
+14 verbose stack     at emitTwo (events.js:87:13)
+14 verbose stack     at EventEmitter.emit (events.js:172:7)
+14 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+14 verbose stack     at emitTwo (events.js:87:13)
+14 verbose stack     at ChildProcess.emit (events.js:172:7)
+14 verbose stack     at maybeClose (internal/child_process.js:818:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+15 verbose pkgid slack4health@1.0.0-SNAPSHOT
+16 verbose cwd /var/www/clients/client0/web5/web/slack4health
+17 error Linux 3.2.0-4-amd64
+18 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "run" "server"
+19 error node v5.0.0
+20 error npm  v3.3.6
+21 error code ELIFECYCLE
+22 error slack4health@1.0.0-SNAPSHOT server: `webpack-dev-server --inline --colors --display-error-details --display-cached --port 8080`
+22 error Exit status 1
+23 error Failed at the slack4health@1.0.0-SNAPSHOT server script 'webpack-dev-server --inline --colors --display-error-details --display-cached --port 8080'.
+23 error This is most likely a problem with the slack4health package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     webpack-dev-server --inline --colors --display-error-details --display-cached --port 8080
+23 error You can get their info via:
+23 error     npm owner ls slack4health
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]
